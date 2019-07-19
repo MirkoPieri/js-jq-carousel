@@ -27,6 +27,7 @@ main {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .next i {
@@ -34,10 +35,12 @@ main {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .image {
   width: 80%;
+  height: 100%;
   border: 3px solid gray;
   border-radius: 30px;
   overflow: hidden;
@@ -45,7 +48,7 @@ main {
 
 .image img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .general .image img {
