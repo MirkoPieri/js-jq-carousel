@@ -20,6 +20,11 @@ main {
 .prev, .next {
   width: 10%;
   font-size: 40px;
+  opacity: .8;
+}
+
+.prev:hover, .next:hover {
+  opacity: 1;
 }
 
 .prev i {
